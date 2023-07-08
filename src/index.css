@@ -1,0 +1,97 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap');
+
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen",
+    "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue",
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  background-image: url("./components/Home/pokemon.jpg");
+  color: #ddd;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
+    monospace;
+}
+
+.welcome-message {
+  position: absolute;
+  top: 20px;
+  left: 90px;
+  opacity: 1;
+  transition: opacity 0.5s ease-in-out; /* Add ease-in-out for a smoother transition */
+  z-index: 9999;
+  color: #FFFFFF;
+  font-weight: bold;
+}
+
+.welcome-message.fade-out {
+  opacity: 0;
+}
+
+.centered-text {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 10vh; /* Adjust the height as needed */
+  color: red;
+  font-weight: bold;
+}
+
+
+/* Nav */
+.custom-nav .collapse {
+  justify-content: flex-end;
+}
+/* End Nav */
+
+/* Home */
+.home {
+  margin-top: 30px;
+}
+
+/* End home */
+
+/* Login */
+.login {
+  min-height: 100vh;
+  align-items: center;
+}
+
+.login h6 {
+  margin-top: 15px;
+}
+
+/* End Login */
+
+/* Register */
+.register {
+  min-height: 100vh;
+  align-items: center;
+}
+/* End register */
+
+.login-form {
+  border: 1px solid #ccc;
+  padding: 20px;
+  border-radius: 4px;
+}
+
+.login-form {
+  border: 1px solid rgba(255, 255, 255, 0.5);
+  padding: 20px;
+  border-radius: 4px;
+  background-color: rgba(255, 255, 255, 0.2);
+}
+
+.register-form {
+  border: 1px solid #ccc;
+  padding: 20px;
+  border-radius: 4px;
+  background-color: rgba(255, 255, 255, 0.2);
+}
+
+
+
